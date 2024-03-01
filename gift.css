@@ -414,7 +414,7 @@ body {
 }
 
 .heartR {
-  display: block;
+  display: inlne-block;
   width: 100px;
   height: 100px;
   transform: scaleX(-1) rotate(-70deg);
