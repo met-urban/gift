@@ -388,10 +388,10 @@ body {
   display: flex;
   position: absolute;
   /*justify-content: center;
-  align-items: center;*/
+  align-items: center;
   height: 100vh;
-  width: 10%;
-  margin-top: 170px;
+  width: 10%;*/
+  margin-top: 70px;
   margin-left: 220px;
   visibility: hidden;
   /*transform: scale(0);*/
