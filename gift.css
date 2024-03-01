@@ -391,19 +391,6 @@ body {
   align-items: center;
   height: 100vh;
   width: 10%;
-  margin-top: 70px;
-  margin-left: 220px;
-  visibility: hidden;
-  /*transform: scale(0);*/
-}
-
-heartBody {
-  display: flex;
-  position: absolute;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 10%;
   margin-top: 170px;
   margin-left: 220px;
   visibility: hidden;
@@ -434,6 +421,20 @@ heartBody {
   background: red;
   border-radius: 180% 100% 180% 0%;
   margin: -22px;
+  padding: 0;
+}
+
+#poem {
+  position: absolute;
+  width: 350px;
+  height: 400px;
+  background: linear-gradient(to top, skyblue, transparent 10%, skyblue);
+  border-radius: 20%;
+  margin-left: 130px;
+  margin-top: 80px;
+  visibility: hidden;
+  box-shadow: 0 0 5px black;
+}
 
 .poem {
   position: absolute;
