@@ -9,8 +9,14 @@ const heart = document.querySelector(".heartBody");
 const wish = document.querySelector(".wish");
 const handMove = document.querySelector(".greet");
 const hand = document.getElementById("hand");
-const poemButton = document.querySelector(".poem");
-const poem = document.querySelector("#poem");
+const poemButton2024 = document.querySelector(".poem2024");
+const poemButton2022 = document.querySelector(".poem2022");
+const poemButton2019 = document.querySelector(".poem2019");
+const poemButton2018 = document.querySelector(".poem2018");
+const poem2024 = document.querySelector("#poem2024");
+const poem2022 = document.querySelector("#poem2022");
+const poem2019 = document.querySelector("#poem2019");
+const poem2018 = document.querySelector("#poem2018");
 const head = document.querySelector(".head");
 const newHandShake = [
   {transform: "rotate(-10deg)"},
@@ -49,15 +55,36 @@ function handShake() {
   hand.animate(newHandShake, handTiming);
 };
 
-function showPoem() {
-  poem.style.visibility = "visible";
+function showPoem2024() {
+  poem2024.style.visibility = "visible";
+}
+
+function showPoem2022() {
+  poem2022.style.visibility = "visible";
+}
+
+function showPoem2019() {
+  poem2019.style.visibility = "visible";
+}
+
+function showPoem2018() {
+  poem2018.style.visibility = "visible";
 }
 
 function hidePoem() {
-  poem.style.visibility = "hidden";
+  poem2024.style.visibility = "hidden";
+  poem2022.style.visibility = "hidden";
+  poem2019.style.visibility = "hidden";
+  poem2018.style.visibility = "hidden";
 }
 
-poemButton.addEventListener("click", showPoem);
-poem.addEventListener("click", hidePoem);
+poemButton2024.addEventListener("click", showPoem2024);
+poemButton2022.addEventListener("click", showPoem2022);
+poemButton2019.addEventListener("click", showPoem2019);
+poemButton2018.addEventListener("click", showPoem2018);
+poem2024.addEventListener("click", hidePoem);
+poem2022.addEventListener("click", hidePoem);
+poem2019.addEventListener("click", hidePoem);
+poem2018.addEventListener("click", hidePoem);
 wish.addEventListener("click", talking); 
 handMove.addEventListener("click", handShake);
