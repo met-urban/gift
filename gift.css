@@ -417,7 +417,7 @@ body {
   display: block;
   width: 100px;
   height: 100px;
-  transform: scaleX(-1) rotate(10deg);
+  transform: scaleX(-1) rotate(-70deg);
   background: red;
   border-radius: 180% 100% 180% 0%;
   margin: -22px;
