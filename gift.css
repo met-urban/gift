@@ -65,12 +65,24 @@ body {
   transform: rotate(250deg) translate(12em) rotate(-250deg); 
 }
   
-.nav-menu .poem { 
+.nav-menu .poem2024 { 
   transform: rotate(280deg) translate(12em) rotate(-280deg); 
+}
+
+.nav-menu .poem2022 { 
+  transform: rotate(310deg) translate(12em) rotate(-310deg); 
+}
+
+.nav-menu .poem2019 { 
+  transform: rotate(340deg) translate(12em) rotate(-340deg); 
+}
+
+.nav-menu .poem2018 { 
+  transform: rotate(10deg) translate(12.5em) rotate(-10deg); 
 }
   
 .nav-menu .pics { 
-  transform: rotate(310deg) translate(12em) rotate(-310deg); 
+  transform: rotate(40deg) translate(14em) rotate(-40deg); 
 }
 
 .head {
@@ -167,6 +179,7 @@ body {
   rotate: 20deg;
   border: 12px solid firebrick;
   box-shadow: 0px 0px 10px tan;
+  transform: scale(0.85);
 }
 
 .teeth {
@@ -364,7 +377,7 @@ body {
 @keyframes heartKiss {
   0% {transform: scale(0); visibility: visible;};
   50% {transform: scale(0.5); visibility: visible;};
-  100% {transform: scale(1); visibility: visible;};
+  100% {transform: scale(1.5); visibility: visible;};
 }
 
 .heartBody {
@@ -407,7 +420,7 @@ body {
   padding: 0;
 }
 
-#poem {
+.poem {
   position: absolute;
   width: 350px;
   height: 400px;
@@ -417,12 +430,14 @@ body {
   margin-top: 80px;
   visibility: hidden;
   box-shadow: 0 0 5px black;
+  overflow: auto;
 }
 
-#poem p {
+.poem p {
   padding: 30px;
   font-family: cursive;
   text-shadow: 0 0 3px white, 0 0 10px white;
+
 }
 
 
@@ -440,6 +455,6 @@ body {
 
 @media screen and (max-width: 280px) {
   body {
-    scale: 0.4;
+    scale: 0.3;
   }
 }
