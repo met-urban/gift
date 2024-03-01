@@ -455,6 +455,6 @@ body {
 
 @media screen and (max-width: 280px) {
   body {
-    scale: 0.3;
+    scale: 0.25;
   }
 }
