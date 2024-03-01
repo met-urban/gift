@@ -467,7 +467,7 @@ body {
   body {
     scale: 0.3;
   }
-  heartR {
+  .heartR {
     margin-left: 50px;
     margin-top:-20px;
 }
