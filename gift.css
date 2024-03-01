@@ -417,7 +417,7 @@ body {
   display: inlne-block;
   width: 100px;
   height: 100px;
-  transform: scaleX(-1) rotate(-170deg);
+  transform: scaleX(-1) rotate(-270deg);
   background: red;
   border-radius: 180% 100% 180% 0%;
   margin: -22px;
