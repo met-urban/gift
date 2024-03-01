@@ -387,10 +387,10 @@ body {
 .heartBody {
   display: flex;
   position: absolute;
-  /*justify-content: center;
+  justify-content: center;
   align-items: center;
   height: 100vh;
-  width: 10%;*/
+  width: 10%;
   margin-top: 70px;
   margin-left: 220px;
   visibility: hidden;
@@ -460,5 +460,6 @@ body {
 @media screen and (max-width: 280px) {
   body {
     scale: 0.25;
+    margin-left: 80px;
   }
 }
