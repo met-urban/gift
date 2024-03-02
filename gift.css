@@ -451,12 +451,7 @@ body {
 
 @media screen and (max-width: 280px) {
   body {
-    scale: 0.5;
+    scale: 0.3;
   }
 }
 
-@media screen and (max-width: 280px) {
-  body {
-    scale: 0.25;
-  }
-}
