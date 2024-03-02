@@ -468,6 +468,7 @@ body {
     scale: 0.3;
   }
   .heartR {
-    margin: 55px;
+    left: 55px;
+    top:-20px;
 }
   
