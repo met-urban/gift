@@ -3,7 +3,7 @@ body {
   justify-content: center;
   align-items: center; 
   background-repeat: repeat;
-  background-image: url("pic2.jpg");
+  background-image: url("pic2.jpg")/*, url("pic1.jpg"), url("pic2.jpg"), url("pic3.jpg"), url("pic4.jpg"), url("pic5.jpg")*/;
   background-size: 400px;
   background-position: center;
 }
@@ -93,6 +93,7 @@ body {
   display: grid;
   width: 200px;
   height: 250px;
+  /*background-color: burlywood;*/
   background-image: radial-gradient(closest-side, burlywood, tan, saddlebrown);
   align-items: center;
   place-content: center;
@@ -267,7 +268,7 @@ body {
   align-items: center;
   height: 100vh;
   margin-top: -200px;
-  margin-left: -30px;
+  margin-left: -60px;
   rotate: -30deg;
   transform-origin: bottom center;
 }
@@ -393,11 +394,13 @@ body {
   margin-top: 170px;
   margin-left: 220px;
   visibility: hidden;
+  /*transform: scale(0);*/
 }
 
 .heart {
-  filter: drop-shadow(0px 0px 5px red);
   display: inline-flex;
+  filter: drop-shadow(0px 0px 5px red);
+  /*transform: rotate(20deg);*/
 }
 
 .heartL {
@@ -436,6 +439,11 @@ body {
   overflow: auto;
 }
 
+#poem2019 {
+  background: url("poem2019.jpg")
+  opacity: 0.6;
+}
+
 .poem p {
   padding: 30px;
   font-family: cursive;
@@ -452,7 +460,13 @@ body {
 
 @media screen and (max-width: 280px) {
   body {
-    scale: 0.3;
+    scale: 0.5;
   }
-}
+  .heart {
+    margin-left: 50px;
+  }
+  .hand {
+    margin-left: -40px;
+  }
 
+}
