@@ -446,7 +446,7 @@ body {
 
 .poem p {
   padding: 30px;
-  font-family: cursive;
+  /*font-family: cursive;*/
   text-shadow: 0 0 3px white, 0 0 10px white;
 
 }
