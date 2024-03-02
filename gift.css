@@ -461,6 +461,10 @@ body {
   body {
     scale: 0.5;
   }
+  .heartR {
+    left: 55px;
+    top:-20px;
+  }
 }
 
 @media screen and (max-width: 280px) {
